@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #142444;
+  --color-secondary: #fba304;
+}
+
+
+@font-face {
+  font-family: "PrachasonNeue";
+  src: url("./font/PrachasonNeue-Regular.otf");
+}
+@font-face {
+  font-family: "PrachasonNeue-Light";
+  src: url("./font/PrachasonNeue-Light.otf");
+}
+
+@font-face {
+  font-family: "PrachasonNeue-Black";
+  src: url("./font/PrachasonNeue-Black.otf");
+}
+h1,span {
+  font-family: "PrachasonNeue-Black";
+}
+p {
+  font-family: "PrachasonNeue-Light";
+}
+* {
+  font-family: "PrachasonNeue";
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f6f9fc; 
+}
+
+
