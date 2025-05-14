@@ -65,7 +65,7 @@ const Navbar = () => {
           `}>
     
             <div>
-              <a className="bg-primary hover:bg-secondary px-4 py-2 text-white rounded-full" href="">ติดต่อเรา</a>
+              <a className="bg-primary/90 hover:bg-secondary px-4 py-2 text-white rounded-full duration-300 transition-all" href="">ติดต่อเรา</a>
             </div>
 
         </div>
