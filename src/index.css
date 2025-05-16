@@ -3,9 +3,8 @@
 @theme {
   --color-primary: #142444;
   --color-secondary: #fba304;
-  --color-text-header: #1f2937;
+  --color-text-header: #4b5563;
 }
-
 
 @font-face {
   font-family: "PrachasonNeue";
@@ -20,7 +19,8 @@
   font-family: "PrachasonNeue-Black";
   src: url("./font/PrachasonNeue-Black.otf");
 }
-h1,span {
+h1,
+span {
   font-family: "PrachasonNeue-Black";
 }
 p {
@@ -31,7 +31,24 @@ p {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #f6f9fc; 
+  background-color: #f6f9fc;
 }
 
+.stats-item {
+  border-left: 4px solid #0f4c81;
+}
 
+.stats-item:first-child {
+  border-left: none;
+}
+
+@media (max-width: 768px) {
+  .stats-item {
+    border-left: none;
+    border:none
+  }
+
+  .stats-item:first-child {
+    border-top: none;
+  }
+}
